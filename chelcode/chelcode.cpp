@@ -3,7 +3,7 @@
 #include <string.h>
 #include<ctype.h>
 #define MAX 1000
-int main()
+int main() 
 {
 	char text[MAX];
 	char noviy[MAX];
