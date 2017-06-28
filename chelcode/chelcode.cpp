@@ -12,7 +12,7 @@ int main()
 	char sym[100] = ", . ! ? ";
 	int i = 0, j, k, sk, pov_count[MAX], h = 0, d, f, r;
 	printf("Enter the sentence:\n");
-	gets_s(text);
+	gets_s(text); 
 	for (r = 0; text[r] != 0; r++)
 	{
 		if (text[r] <= 'z' && text[r] >= 'a')
