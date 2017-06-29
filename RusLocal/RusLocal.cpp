@@ -3,7 +3,7 @@
 #include <string.h>
 #include<ctype.h>
 #include <locale.h>
-#define MAX 1000
+#define MAX 1000  
 int main()
 {
 	setlocale(LC_ALL, ("rus"));
@@ -13,7 +13,7 @@ int main()
 	char* t;
 	char sym[100] = ", . ! ? ";
 	int i = 0, j, k, sk, pov_count[MAX], h = 0, d, f, r;
-	printf("Введите текст(английский текст:\n");
+	printf("Введите текст(английский текст):\n");
 	gets_s(text);
 	for (r = 0; text[r] != 0; r++)
 	{
